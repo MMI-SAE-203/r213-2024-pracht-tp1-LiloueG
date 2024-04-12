@@ -31,7 +31,7 @@ onErrorCaptured((err, instance, info) => {
     <nav id="mainNav" v-show="menuIsOpen">
       <ul>
         <li><RouterLink to="/accordeon">Accordéon</RouterLink></li>
-        <li><RouterLink to="/boucle_données">Boucle sur les données</RouterLink></li>
+        <li><RouterLink to="/boucle_donnee">Boucle sur les données</RouterLink></li>
         <li><RouterLink to="#">item 3</RouterLink></li>
       </ul>
     </nav>
