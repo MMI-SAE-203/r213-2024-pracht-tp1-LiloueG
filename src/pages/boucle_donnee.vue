@@ -35,7 +35,7 @@
 
 
     <section v-for="({ label, texte }, key) of sectionsData" :key="key" >
-        <pre class="font-mono" @pointerdown="sectionOpen = key">{{ label }}</pre>
+        <pre class="font-mono bg-cyan-500 hover:bg-cyan-600 rounded-xl px-2 " @pointerdown="sectionOpen = key">{{ label }}</pre>
         <pre class="font-mono" v-show="sectionOpen == key">{{ texte }}</pre>
         
     </section>
